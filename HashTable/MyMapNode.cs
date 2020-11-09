@@ -135,7 +135,12 @@ namespace HashTable
             }
         }
 
-        //Method to find the frequency of the words appearing in the hash table
+        /// <summary>
+        /// Gets the frequency.
+        /// </summary>
+        /// <param name="value">The value.</param>
+        /// <returns></returns>
+         //Method to find the frequency of the words appearing in the hash table
         public int GetFrequency(V value)
         {
             int frequency = 0;
